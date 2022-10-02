@@ -1,0 +1,10 @@
+@media screen and (max-width:770px) {
+    #nav1{
+        display: none;
+
+    }
+    #nav2{
+        display: block;
+    }
+    
+}
