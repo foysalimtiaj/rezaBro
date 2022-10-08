@@ -28,8 +28,11 @@ body{
     color: rgb(255, 255, 255);
     padding: 30px;
 }
-#nav2 ul  {
+#navMenu2  {
     display: flex;
-    justify-content: space-between;
+    
     padding: 0;
+}
+.res{
+    display: block;
 }
