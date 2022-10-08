@@ -1,9 +1,43 @@
-@media screen and (max-width:770px) {
-    #nav1{
+@media screen and (max-width:590px){
+    #second{
         display: none;
-
+    }    
+    #last{
+        display: block;
+        margin-right: 1vw;
     }
-    #nav2{
+    #last ul li a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:433px) {
+    #last{
+        display: none;
+      
+       
+    }
+   
+    .drop ul li{
+        float: none;
+        position: relative;
+        right: 50%;
+        
+    }
+    #last ul li a{ 
+        font-size: 15px;
+    }
+    #barss{
+        display: block;
+    }
+    #logo{
+        padding-bottom: 15px;
+    }
+    
+}
+@media screen and (max-width:433px) {
+   
+    
+    #last.try{
         display: block;
     }
     
