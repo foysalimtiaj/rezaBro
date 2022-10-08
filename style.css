@@ -58,9 +58,43 @@ a{
     padding: 7px 10px;
     border-radius: 10px;
 }
+#item1 button:hover~#phone{
+    display: block;
+}
+#item1 h4{
+    display:none;
+}
 #item1{
-    width: 30vw;
-    max-height: 300px;
+    min-width: 500px;
+    max-width: 600px;
+    max-height: 400px;
     overflow: hidden;
     margin: 30px;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: aqua;
+}
+#item2{
+    margin-top: 200px;
+    margin-right: 199px;
+    
+}
+#item2 img{
+    width: 900px;
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+}
+#item3{
+    margin-top: -300px;
+    margin-left: 70px;
+}
+#item4{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+#container3{
+    margin-top: 100px;
+    margin-left: 300px;
 }
