@@ -1,47 +1,32 @@
-@media screen and (max-width:590px){
-    #second{
-        display: none;
-    }    
-    #last{
-        display: block;
-        margin-right: 1vw;
-    }
-    #last ul li a{
-        font-size: 14px;
-    }
-}
-@media screen and (max-width:433px) {
-    #last{
-        display: none;
-      
-       
-    }
-   
-    .drop ul li{
+@media screen and (max-width:700px) {
+    ul li {
         float: none;
-        position: relative;
-        right: 50%;
-        
     }
-    #last ul li a{ 
-        font-size: 15px;
+    #about{
+        float: left;
+        width: 100%;
     }
     #barss{
         display: block;
     }
-    #logo{
-        padding-bottom: 15px;
-    }
+    
     
 }
-@media screen and (max-width:433px) {
-   
-    
-    #last.try{
-        display: block;
+@media screen and (max-width:700px) {
+    #dropDownContainer{
+        position: static;
     }
-    #barss{
-        font-size: 16px;
-        padding-bottom: 20px;
+    #dropDownContainer li a{
+        background-color:rgb(76, 16, 133);
+    }
+    #dropDownContainer li a:hover{
+        background-color: brown;
+
+    }
+    #drop{
+        display: none;
+    }
+    #drop.try{
+        display: block;
     }
 }
