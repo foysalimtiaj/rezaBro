@@ -24,3 +24,102 @@
     }
    
 }
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+[class*="col-"]{
+    width: 100%;
+}
+ img{
+    width: 100%;
+    height: auto;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+#hi{
+    padding: 90px 0px 20px 20px;
+}
+#hi span{
+    color: brown;
+}
+#hi p{
+    font-size: 20px;
+    text-align: start;
+    text-justify:newspaper;
+}
+#first-video{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    
+    
+}
+#second-video{
+    padding: 30px ;
+    height: 500px;
+}
+.card{
+    border: 2px solid black;
+  
+    margin: 1%;
+    box-shadow: 3px 3px 4px black;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+@media screen and (min-width:768px) {
+    .col-big-1{width: 8.33%;}
+    .col-big-2{width: 16.66%;}
+    .col-big-25{width: 23%;}
+    .col-big-3{width: 25%;}
+    .col-big-4{width: 33.33%;}
+    .col-big-5{width: 41.66%;}
+    .col-big-50{width:48%;}
+    .col-big-6{width: 50%;}
+    .col-big-7{width: 58%;}
+    .col-big-8{width: 66.66%;}
+    .col-big-9{width: 75%;}
+    .col-big-10{width: 83.33%;}
+    .col-big-11{width: 91%;}
+    .col-big-12{width: 100%;}
+
+    #first-video{
+        height: 800px;
+        padding-top: 300px;
+    }
+    #second-video{
+        height: 800px;
+    }
+}
+@media screen and (max-width:425px) {
+   #second-video{
+    height: 300px;
+   }
+    
+}
+
+#foote{
+    background-color: blue;
+}
+.foot h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.foot input,.foot button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#last{
+   
+    background-color: rgb(4, 4, 122);
+    color: #ffffff;
+    text-align: center;
+}
