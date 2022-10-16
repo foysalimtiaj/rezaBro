@@ -1,47 +1,26 @@
-@media screen and (max-width:590px){
-    #second{
-        display: none;
-    }    
-    #last{
-        display: block;
-        margin-right: 1vw;
-    }
-    #last ul li a{
-        font-size: 14px;
-    }
-}
-@media screen and (max-width:433px) {
-    #last{
-        display: none;
-      
-       
-    }
-   
-    .drop ul li{
+@media screen and (max-width:768px) {
+    ul li ,#photos {
         float: none;
-        position: relative;
-        right: 50%;
         
     }
-    #last ul li a{ 
-        font-size: 15px;
+    #menu{
+        margin: 0;
     }
-    #barss{
+    #dropDownContain{
+        position:static;
+
+    }
+    #menu{
+        display: none;
+    }
+    #bars{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #menu.try{
         display: block;
     }
-    #logo{
-        padding-bottom: 15px;
-    }
-    
-}
-@media screen and (max-width:433px) {
    
-    
-    #last.try{
-        display: block;
-    }
-    #barss{
-        font-size: 16px;
-        padding-bottom: 20px;
-    }
 }
